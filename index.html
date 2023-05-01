@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NBA</title>
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
+  <script src="js/jquery-3.6.4.slim.js" defer></script>
+  <script src="js/bootstrap/bootstrap.min.js" defer></script>
+  <script src="js/app/app.js" type="module"></script>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <!--MENU DE LA PAGINA-->
+  <nav-bar-menu></nav-bar-menu>
+  <!-- ZONA DE EQUIPO-->
+  <div class="container mt-1" id="grupoEquipos" style="display: none;">
+    <frm-equipos-nba></frm-equipos-nba>
+  </div>
+  <!-- ZONA DE LOS JUGADORES-->
+  <div class="container mt-1" id="grupoJugadores" style="display: none;">
+    <frm-jugadores-nba></frm-jugadores-nba>
+  </div>
+  <!-- ZONA DE APOYO-->
+  <div class="container mt-1" id="grupoApoyo" style="display: none;">
+    <frm-cuerpo-apoyo-nba></frm-cuerpo-apoyo-nba>
+  </div>
+</body>
+</html>
